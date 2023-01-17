@@ -69,13 +69,17 @@ header{
   font-size: 14px;
 }
 
-.list h2{
+.list{
+  margin-bottom: 30px;
+}
+
+.todolist-box h2{
   font-size: 18px;
   color: #343944;
   margin-bottom: 10px;
 }
 
-.list h2::before{
+.todolist-box h2::before{
   content:'\2714';
   margin-right: 5px;
 }
@@ -85,11 +89,19 @@ header{
   line-height: 20px;
 }
 
-.list .added{
+.list-item .added{
+  color: #45CDB7;
+}
+
+.list-item .not-added{
+  color: #FA4344;
+}
+
+.list-item .added,
+.list-item .not-added{
+  line-height: 20px;
   font-size: 20px;
   margin-right: 10px;
-  color: #45CDB7;
-  line-height: 20px;
 }
 
 .label{
@@ -107,12 +119,12 @@ header{
 
 .list-text,
 .list .added,
+.list .not-added,
 .label{
   vertical-align: middle;
 }
 
 
-2611
-2612
+
 
 
