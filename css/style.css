@@ -33,10 +33,9 @@ header{
 /* main */
 
 .container{
-  width: 60%;
+  width: 50%;
   margin: 40px auto;
   background-color: #fff;
-  height: 700px;
   border-radius: 6px;
 }
 
@@ -73,19 +72,26 @@ header{
   margin-bottom: 30px;
 }
 
-.todolist-box h2{
+.list.last-one{
+  margin-bottom: 0;
+}
+
+.list h2{
   font-size: 18px;
   color: #343944;
   margin-bottom: 10px;
 }
 
-.todolist-box h2::before{
+.list h2::before{
   content:'\2714';
   margin-right: 5px;
 }
 
+.list-item{
+  margin-bottom: 10px;
+}
+
 .list-text{
-  margin-bottom: 5px;
   line-height: 20px;
 }
 
@@ -104,8 +110,16 @@ header{
   margin-right: 10px;
 }
 
+.list-item .added,
+.list-item .not-added,
+.list-text,
 .label{
-  display: inline-block;
+  vertical-align: middle;
+}
+
+/* labels */
+
+.label{
   font-size: 10px;
   padding: 5px 10px;
   color:#fff;
@@ -117,12 +131,28 @@ header{
   background-color: #34A9ED;
 }
 
-.list-item .added,
-.list-item .not-added,
-.list-text,
-.label{
-  vertical-align: middle;
+.label.lb-purple{
+  background-color: #AB5CE6;
 }
+
+.label.lb-aqua{
+  background-color: #2CC6AB;
+}
+
+.label.lb-orange{
+  background-color: #FA9B00;
+}
+
+.label.lb-pink{
+  background-color: #EC4A9D;
+}
+
+.label.lb-green{
+  background-color: #A3D113;
+}
+
+
+
 
 
 
