@@ -37,5 +37,26 @@ header{
   background-color: #fff;
   height: 700px;
   border-radius: 6px;
-  padding: 0 30px;
+}
+
+.add-buttons{
+  border-bottom: #38AAFF solid 2px;
+  padding: 10px 30px;
+}
+
+.btn{
+  padding: 7px;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.blue{
+  background-color: #36AAF5;
+  border: 2px solid #36AAF5;
+}
+
+.btn.white{
+  background-color: #fff;
+  border: 2px solid #CED4D8;
 }
