@@ -22,11 +22,12 @@ header{
   vertical-align: middle;
 }
 
-.logo-header .logo-text{
+.logo-header h1{
   font-size: 40px;
   font-weight: bold;
   vertical-align: middle;
   line-height: 80px;
+  display: inline-block;
 }
 
 /* main */
@@ -51,12 +52,67 @@ header{
   cursor: pointer;
 }
 
-.btn.blue{
+.btn.btn-blue{
   background-color: #36AAF5;
   border: 2px solid #36AAF5;
 }
 
-.btn.white{
+.btn.btn-white{
   background-color: #fff;
   border: 2px solid #CED4D8;
 }
+
+/* to do list */
+
+.todolist-box{
+  padding: 25px 30px;
+  font-size: 14px;
+}
+
+.list h2{
+  font-size: 18px;
+  color: #343944;
+  margin-bottom: 10px;
+}
+
+.list h2::before{
+  content:'\2714';
+  margin-right: 5px;
+}
+
+.list-text{
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+
+.list .added{
+  font-size: 20px;
+  margin-right: 10px;
+  color: #45CDB7;
+  line-height: 20px;
+}
+
+.label{
+  display: inline-block;
+  font-size: 10px;
+  padding: 5px 10px;
+  color:#fff;
+  border-radius: 40%/100%;
+  margin-left: 5px;
+}
+
+.label.lb-blue{
+  background-color: #34A9ED;
+}
+
+.list-text,
+.list .added,
+.label{
+  vertical-align: middle;
+}
+
+
+2611
+2612
+
+
